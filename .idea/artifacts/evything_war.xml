@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="evything:war">
+    <output-path>$PROJECT_DIR$/evything/target</output-path>
+    <root id="archive" name="shaofeng.ideaj0.1.war">
+      <element id="artifact" artifact-name="evything:war exploded" />
+    </root>
+  </artifact>
+</component>

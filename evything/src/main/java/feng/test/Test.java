@@ -19,10 +19,7 @@ import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by sfeng on 2016/8/25.
@@ -38,10 +35,11 @@ public class Test extends AbstractJUnit4SpringContextTests {
     public  void test() throws Exception {
         //generatorTable();
        // cglibGenerator();
-        UserInfo u=new UserInfo();
-        u.setName("shaofeng");
-        u.setEmail("shaofeng@126.com");
-        System.out.println( userService.insert(u));
+//        UserInfo u=new UserInfo();
+//        u.setName("shaofeng");
+//        u.setEmail("shaofeng@126.com");
+//        System.out.println( userService.insert(u));
+        System.out.println(new Date());
     }
 
 

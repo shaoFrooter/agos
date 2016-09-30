@@ -1,5 +1,8 @@
 package lecode.test;
 
+import lecode.LongestSubstringWithoutRepeatingCharacters.LongestSubstringWithoutRepeatingCharacters;
+import lecode.ReverseInteger.ReverseInteger;
+
 import java.util.Date;
 
 /**
@@ -7,7 +10,15 @@ import java.util.Date;
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println(new Date());
+//        LongestSubstringWithoutRepeatingCharacters lwc=new LongestSubstringWithoutRepeatingCharacters();
+//
+//        int res=lwc.lengthOfLongestSubstring("abcabcbb");
+
+        ReverseInteger ri=new ReverseInteger();
+        int res=ri.reverse(1354236469);
+        System.out.println(1354236469);
+        System.out.println(res);
+        System.out.println(Integer.MAX_VALUE);
 
     }
 }

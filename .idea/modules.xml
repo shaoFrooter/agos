@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/evything/evything.iml" filepath="$PROJECT_DIR$/evything/evything.iml" />
       <module fileurl="file://$PROJECT_DIR$/himanf.iml" filepath="$PROJECT_DIR$/himanf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spgmvc2/spgmvc2.iml" filepath="$PROJECT_DIR$/spgmvc2/spgmvc2.iml" />
     </modules>
   </component>
 </project>

@@ -30,7 +30,6 @@ public class Test extends AbstractJUnit4SpringContextTests {
     @Autowired
     private UserService userService;
 
-
     @org.junit.Test
     public  void test() throws Exception {
         //generatorTable();

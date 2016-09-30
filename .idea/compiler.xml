@@ -24,12 +24,15 @@
         <processorPath useClasspath="true" />
         <module name="evydo" />
         <module name="evything" />
+        <module name="spgmvc2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="evydo" target="1.5" />
       <module name="evything" target="1.5" />
       <module name="mvnapp" target="1.5" />
+      <module name="spgmvc" target="1.5" />
+      <module name="spgmvc2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

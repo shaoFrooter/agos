@@ -45,6 +45,8 @@
     <file type="web" url="file://$PROJECT_DIR$/evydo" />
     <file type="web" url="file://$PROJECT_DIR$/evything" />
     <file type="web" url="file://$PROJECT_DIR$/mvnapp" />
+    <file type="web" url="file://$PROJECT_DIR$/spgmvc" />
+    <file type="web" url="file://$PROJECT_DIR$/spgmvc2" />
     <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
@@ -54,6 +56,8 @@
         <option value="$PROJECT_DIR$/Evything/pom.xml" />
         <option value="$PROJECT_DIR$/evydo/pom.xml" />
         <option value="$PROJECT_DIR$/mvnapp/pom.xml" />
+        <option value="$PROJECT_DIR$/spgmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/spgmvc2/pom.xml" />
       </list>
     </option>
   </component>

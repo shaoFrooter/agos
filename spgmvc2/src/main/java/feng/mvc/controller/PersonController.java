@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 /**
  * Created by sfeng on 2016/9/30.
  */
@@ -23,6 +25,15 @@ public class PersonController {
         Person p=ipersonService.getPersonDetail(id);
 
         return p;
+
+    }
+
+    @RequestMapping("/persons")
+    public List<Person> getPersons(@RequestParam(value="id",required = false,defaultValue = "0") Integer id){
+
+        List<Person> pers=ipersonService.getAllUser();
+
+        return pers;
 
     }
 }

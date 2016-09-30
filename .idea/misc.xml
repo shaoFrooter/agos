@@ -58,6 +58,7 @@
         <option value="$PROJECT_DIR$/mvnapp/pom.xml" />
         <option value="$PROJECT_DIR$/spgmvc/pom.xml" />
         <option value="$PROJECT_DIR$/spgmvc2/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
       </list>
     </option>
   </component>

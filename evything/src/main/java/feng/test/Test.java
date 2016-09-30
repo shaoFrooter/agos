@@ -1,7 +1,6 @@
 package feng.test;
 
 import common.feng.cglibgenerator.CglibBean;
-import himanf.feng.model.UserInfo;
 import himanf.feng.service.UserService;
 import org.junit.runner.RunWith;
 import org.mybatis.generator.api.MyBatisGenerator;
@@ -32,13 +31,12 @@ public class Test extends AbstractJUnit4SpringContextTests {
 
     @org.junit.Test
     public  void test() throws Exception {
-        //generatorTable();
+        generatorTable();
        // cglibGenerator();
 //        UserInfo u=new UserInfo();
 //        u.setName("shaofeng");
 //        u.setEmail("shaofeng@126.com");
 //        System.out.println( userService.insert(u));
-        System.out.println(new Date());
     }
 
 
@@ -67,6 +65,8 @@ public class Test extends AbstractJUnit4SpringContextTests {
         String genCfg = "configs/generatorConfig.xml";
 
         File configFile = new File(Test.class.getClassLoader().getResource("").getFile()+genCfg);
+        System.out.println(configFile.getAbsolutePath());
+
         ConfigurationParser cp = new ConfigurationParser(warnings);
         Configuration config = null;
         try {

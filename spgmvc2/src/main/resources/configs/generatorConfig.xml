@@ -18,20 +18,20 @@
             <property name="forceBigDecimals" value="false" />
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="himanf.feng.model" targetProject="src\main\java">
+        <javaModelGenerator targetPackage="feng.mvc.bean" targetProject="src\main\java">
             <property name="enableSubPackages" value="true" />
             <property name="trimStrings" value="true" />
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="himanf/feng/mappers"  targetProject="src\main\resources">
+        <sqlMapGenerator targetPackage="feng/mvc/mappers"  targetProject="src\main\resources">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="himanf.feng.dao"  targetProject="src\main\java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="feng.mvc.dao"  targetProject="src\main\java">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
 
-        <table  tableName="tb_user" domainObjectName="UserInfo" >
+        <table  tableName="app_user" domainObjectName="AppUser" >
             <!--<property name="useActualColumnNames" value="true"/>-->
             <!--<generatedKey column="ID" sqlStatement="DB2" identity="true" />-->
             <!--<columnOverride column="DATE_FIELD" property="startDate" />-->

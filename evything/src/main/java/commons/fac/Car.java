@@ -1,4 +1,4 @@
-package common.feng.fac;
+package commons.fac;
 
 /**
  * Created by sfeng on 2016/8/29.

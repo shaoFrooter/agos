@@ -1,4 +1,4 @@
-package common.feng.fac;
+package commons.fac;
 
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

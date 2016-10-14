@@ -1,4 +1,4 @@
-package himanf.feng.model;
+package himanf.model;
 
 import java.util.ArrayList;
 import java.util.List;

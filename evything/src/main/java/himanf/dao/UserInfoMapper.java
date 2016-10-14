@@ -1,8 +1,9 @@
-package himanf.feng.dao;
+package himanf.dao;
 
-import himanf.feng.model.UserInfo;
-import himanf.feng.model.UserInfoExample;
+import himanf.model.UserInfo;
+import himanf.model.UserInfoExample;
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface UserInfoMapper {

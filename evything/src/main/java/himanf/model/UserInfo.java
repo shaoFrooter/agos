@@ -1,4 +1,4 @@
-package himanf.feng.model;
+package himanf.model;
 
 public class UserInfo {
     /**

@@ -1,7 +1,7 @@
 package feng.test;
 
-import common.feng.cglibgenerator.CglibBean;
-import himanf.feng.service.UserService;
+import commons.cglibgenerator.CglibBean;
+import himanf.service.UserService;
 import org.junit.runner.RunWith;
 import org.mybatis.generator.api.MyBatisGenerator;
 import org.mybatis.generator.config.Configuration;

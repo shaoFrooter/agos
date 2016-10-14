@@ -1,4 +1,4 @@
-package himanf.feng.service;
+package himanf.service;
 
 import org.apache.ibatis.annotations.Param;
 

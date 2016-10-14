@@ -1,4 +1,4 @@
-package common.feng.cglibgenerator;
+package commons.cglibgenerator;
 
 import net.sf.cglib.beans.BeanGenerator;
 import net.sf.cglib.beans.BeanMap;

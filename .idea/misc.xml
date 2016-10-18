@@ -44,6 +44,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/evydo" />
     <file type="web" url="file://$PROJECT_DIR$/evything" />
+    <file type="web" url="file://$PROJECT_DIR$/fjersey" />
     <file type="web" url="file://$PROJECT_DIR$/mvnapp" />
     <file type="web" url="file://$PROJECT_DIR$/spgmvc" />
     <file type="web" url="file://$PROJECT_DIR$/spgmvc2" />
@@ -59,6 +60,7 @@
         <option value="$PROJECT_DIR$/spgmvc/pom.xml" />
         <option value="$PROJECT_DIR$/spgmvc2/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/fjersey/pom.xml" />
       </list>
     </option>
   </component>

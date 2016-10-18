@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="mvnapp:war">
-    <output-path>$PROJECT_DIR$/mvnapp/target</output-path>
-    <root id="archive" name="mvnapp.war">
-      <element id="artifact" artifact-name="mvnapp:war exploded" />
-    </root>
-  </artifact>
-</component>

@@ -22,9 +22,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="common" />
         <module name="evydo" />
         <module name="evything" />
+        <module name="fjersey" />
+        <module name="spgmvc" />
         <module name="spgmvc2" />
       </profile>
     </annotationProcessing>
@@ -32,6 +33,7 @@
       <module name="common" target="1.5" />
       <module name="evydo" target="1.5" />
       <module name="evything" target="1.5" />
+      <module name="fjersey" target="1.5" />
       <module name="mvnapp" target="1.5" />
       <module name="spgmvc" target="1.5" />
       <module name="spgmvc2" target="1.5" />
